@@ -37,7 +37,7 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand fixed-bottom" style="background-color: #ffffff;height: 55px;color: rgb(248,251,254);border-radius: 0px;border-top-left-radius: 15px;border-top-right-radius: 15px;border-style: none;border-color: rgb(24,24,24);">
-        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav flex-grow-1 justify-content-around" style="color: rgb(255,255,255);">
                     <li class="nav-item"><a class="nav-link active btn" id="Mi-pulseras" href="https://frontenduniversitaurio.bss.design/Mi pulsera.html"><i class="icon-chart" style="font-size: 30px;color: rgb(94,127,245);background: url(U negra.png);border-color: rgb(252,252,252);"></i></a></li>
@@ -49,9 +49,9 @@
         </div>
     </nav>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background-color: rgb(142,251,166);margin-top: 0;">
-        <div class="container"><a class="navbar-brand logo" href="https://frontenduniversitaurio.bss.design/" style="font-family: Muli, sans-serif;">El universitaurio.</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand logo" href="https://frontenduniversitaurio.bss.design/" style="font-family: Muli, sans-serif;">El universitaurio.</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="Mi%20pulsera.html" style="font-family: Muli, sans-serif;">Mi pulsera</a></li>
                     <li class="nav-item"><a class="nav-link" href="Dónde%20están.html" style="font-family: Muli, sans-serif;">¿Dónde están?</a></li>
                     <li class="nav-item"><a class="nav-link" href="Mis%20Recompensas.html" style="font-family: Muli, sans-serif;">Mis Recompensas</a></li>
@@ -66,15 +66,17 @@
         <section class="portfolio-block photography"></section>
     </main>
     <div class="container">
-        <div class="row text-left d-md-flex justify-content-md-center">
+        <div class="row text-start d-md-flex justify-content-md-center">
             <div class="col-md-6">
                 <h1 data-bss-hover-animate="tada" style="font-size: 25px;margin: 10px;">🦖 Hola Alejandro</h1>
             </div>
             <div class="col-md-6 col-lg-5" style="margin: 10px;width: 450px;">
-                <blockquote class="blockquote">
-                    <p class="mb-0" style="text-align: center;font-size: 16px;margin: 10px;">"Excusatio non petita, Acusatio manifesta</p>
-                    <footer class="blockquote-footer" style="font-size: 12px;text-align: center;">⚖️ Grado en Derecho</footer>
-                </blockquote>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="mb-0" style="text-align: center;font-size: 16px;margin: 10px;">"Excusatio non petita, Acusatio manifesta</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer" style="font-size: 12px;text-align: center;">⚖️ Grado en Derecho</figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -101,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center d-lg-flex align-items-lg-end" style="width: 400px;">
-                    <h1 class="text-left" style="font-size: 22px;margin: 10px;font-family: Muli, sans-serif;margin-bottom: 0px;filter: blur(0px);"><span style="text-decoration: underline;">Retos disponibles</span></h1>
+                    <h1 class="text-start" style="font-size: 22px;margin: 10px;font-family: Muli, sans-serif;margin-bottom: 0px;filter: blur(0px);"><span style="text-decoration: underline;">Retos disponibles</span></h1>
                 </div>
                 <div class="col-md-6 d-none">
                     <h1 class="d-lg-flex align-items-lg-end" style="font-size: 22px;margin: 10px;">Eventos&nbsp;</h1>
@@ -113,14 +115,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-6 d-lg-flex" style="width: 480px;height: 200px;">
-                <div class="jumbotron" style="height: 170px;margin: 10px;padding: 10px;border-radius: 10px;background-color: rgb(252,187,183);box-shadow: 3px 3px 10px;">
+                <div class="bg-light border rounded border-light jumbotron py-5 px-4" style="height: 170px;margin: 10px;padding: 10px;border-radius: 10px;background-color: rgb(252,187,183);box-shadow: 3px 3px 10px;">
                     <h3 style="font-size: 24px;"><i class="fa fa-book" style="padding: 0;margin: 10px;"></i>Estudiar&nbsp; tiene premio</h3>
                     <p>Estudia + de 3 días seguidos en la biblioteca&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
                     <p style="margin: 0px;"><a class="btn btn-primary" role="button" style="width: 100px;height: 30px;font-size: 12px;background-color: rgb(245,100,91);font-family: Muli, sans-serif;border-color: rgb(4,4,4);margin-top: -5px;box-shadow: 0px 3px 10px rgb(16,15,15);" href="https://frontenduniversitaurio.bss.design/reto1.html">Saber más</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 d-lg-flex" style="width: 480px;height: 200px;">
-                <div class="jumbotron" style="height: 170px;margin: 10px;padding: 10px;background-color: rgb(210,141,103);border-radius: 10px;box-shadow: 3px 3px 10px;">
+                <div class="bg-light border rounded border-light jumbotron py-5 px-4" style="height: 170px;margin: 10px;padding: 10px;background-color: rgb(210,141,103);border-radius: 10px;box-shadow: 3px 3px 10px;">
                     <h3 style="font-size: 24px;"><i class="fa fa-coffee" style="padding: 0;margin: 10px;"></i>Sé el+ cafetero</h3>
                     <p>Visita + de 2 cafeterías diferentes&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
                     <p style="margin: 0px;border-radius: 10px;"><a class="btn btn-primary" role="button" style="width: 100px;height: 30px;font-size: 12px;background-color: rgb(197,105,75);font-family: Muli, sans-serif;border-color: rgb(6,6,6);margin-top: -5px;box-shadow: 0px 3px 10px rgb(0,0,0);" href="https://frontenduniversitaurio.bss.design/reto2.html">Saber más</a></p>
@@ -132,7 +134,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-left" style="font-size: 22px;margin: 10px;font-family: Muli, sans-serif;"><span style="text-decoration: underline;">Eventos</span></h1>
+                    <h1 class="text-start" style="font-size: 22px;margin: 10px;font-family: Muli, sans-serif;"><span style="text-decoration: underline;">Eventos</span></h1>
                 </div>
             </div>
         </div>
@@ -141,14 +143,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 d-lg-flex" style="width: 480px;height: 200px;">
-                    <div class="jumbotron" style="height: 170px;margin: 10px;padding: 10px;background-color: rgb(255,234,125);border-radius: 10px;box-shadow: 3px 3px 10px;">
+                    <div class="bg-light border rounded border-light jumbotron py-5 px-4" style="height: 170px;margin: 10px;padding: 10px;background-color: rgb(255,234,125);border-radius: 10px;box-shadow: 3px 3px 10px;">
                         <h3 style="font-size: 24px;box-shadow: 0px 0px;"><i class="fas fa-beer" style="margin: 10px;"></i>31 de octubre</h3>
                         <p>Barril de Medicina&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
                         <p style="margin: 0px;"><a class="btn btn-primary" role="button" style="width: 100px;height: 30px;font-size: 12px;background-color: rgb(255,200,5);border-color: rgb(0,0,0);margin-top: -10px;box-shadow: 0px 3px 10px rgb(3,3,3);" href="https://frontenduniversitaurio.bss.design/Evento1.html">Saber más</a></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 d-lg-flex" style="width: 480px;height: 200px;">
-                    <div class="jumbotron" style="height: 170px;margin: 10px;padding: 10px;background-color: rgb(166,249,152);border-radius: 10px;box-shadow: 3px 3px 10px;">
+                    <div class="bg-light border rounded border-light jumbotron py-5 px-4" style="height: 170px;margin: 10px;padding: 10px;background-color: rgb(166,249,152);border-radius: 10px;box-shadow: 3px 3px 10px;">
                         <h3 style="font-size: 24px;"><i class="fa fa-glass" style="margin: 10px;"></i>15 de noviembre</h3>
                         <p>Patrón de ciencias&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
                         <p style="margin: 0px;"><a class="btn btn-primary" role="button" style="width: 100px;height: 30px;font-size: 12px;background-color: rgb(43,222,83);border-color: rgb(4,4,4);margin-top: -10px;box-shadow: 0px 3px 10px rgb(0,0,0);" href="https://frontenduniversitaurio.bss.design/Evento2.html">Saber más</a></p>
